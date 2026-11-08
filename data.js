@@ -71,14 +71,14 @@ window.CHUCK_RELEASES = [
   },
   {
     "title": "Keep Going",
-    "meta": "Release",
+    "meta": "Single",
     "description": "",
     "link": null,
     "slug": "11"
   },
   {
     "title": "Cold & Wicked",
-    "meta": "Release",
+    "meta": "Single",
     "description": "",
     "link": null,
     "slug": "12"

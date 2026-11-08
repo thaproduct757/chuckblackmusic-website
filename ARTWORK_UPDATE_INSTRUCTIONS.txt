@@ -1,0 +1,9 @@
+CHUCK BLACK — ARTWORK UPDATE
+
+Upload the contents of this ZIP into the ROOT of your existing GitHub repository.
+IMPORTANT: Upload the assets folder as a folder, preserving its release-01.jpg through release-12.jpg paths.
+Replace existing files when prompted; do not delete the other site files.
+Updated files: index.html, music.html, release.html, release.js, data.js, style.css and 12 files in assets/.
+Your existing Carrd domain remains untouched.
+
+If GitHub web upload does not overwrite existing files, use Add file > Upload files and drag files, then confirm replacements.
