@@ -1,0 +1,3 @@
+CHUCK BLACK GALLERY WEBSITE UPDATE
+
+Upload the contents of this ZIP to the root of the GitHub repository, preserving the assets/gallery folder. This package is based on the latest Complete Videos Update website ZIP. It includes 61 original photo files (numbers 1–66 except excluded 32, 35, 38, 42, 43). No photos have been AI edited or resized. The original caption list references photos 67–73, but those files were not present in the verified corrected contact sheet, so they are NOT included. Edit captions/categories in gallery-data.js; avoid changing photo filenames. Gallery link has been added to website navigation.
