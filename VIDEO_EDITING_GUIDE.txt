@@ -1,0 +1,12 @@
+CHUCK BLACK WEBSITE — HOW TO UPDATE VIDEOS
+
+Edit videos.js in your GitHub repository and commit the change.
+
+OFFICIAL MUSIC VIDEOS: Add a {"title": "SONG NAME", "id": "YOUTUBE_ID"} entry to officialMusicVideos. The FIRST THREE entries also appear on the homepage.
+INTERVIEWS: Add entries to interviewsAndMedia in the same format.
+MYBLOCKLIVE: Update your existing YouTube playlist directly; the website player follows the playlist.
+
+YouTube video ID: https://youtu.be/ABC123 -> ABC123.
+Do not remove commas between entries; the last entry in an array must not have a trailing comma.
+
+For future changes, update videos.js only. There is no need to upload the whole website ZIP again.
