@@ -23,13 +23,21 @@ if (r) {
   }
   if (r.youtubePlaylist) {
     const player = document.createElement('iframe');
-    player.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + encodeURIComponent(r.youtubePlaylist);
+    player.src = 'https://www.youtube.com/embed/videoseries?list=' + encodeURIComponent(r.youtubePlaylist);
     player.title = r.title + ' — YouTube playlist';
-    player.loading = 'lazy';
+    player.loading = 'eager';
     player.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
     player.referrerPolicy = 'strict-origin-when-cross-origin';
     player.allowFullscreen = true;
-    document.getElementById('release-player').append(player);
+    const holder = document.getElementById('release-player');
+    holder.append(player);
+    const fallback = document.createElement('a');
+    fallback.href = 'https://www.youtube.com/playlist?list=' + encodeURIComponent(r.youtubePlaylist);
+    fallback.textContent = 'Player not working? Open this playlist on YouTube';
+    fallback.target = '_blank';
+    fallback.rel = 'noopener noreferrer';
+    fallback.className = 'textlink player-fallback';
+    holder.append(fallback);
     addLink('https://www.youtube.com/playlist?list=' + encodeURIComponent(r.youtubePlaylist), 'Listen on YouTube');
   }
   if (r.link) addLink(r.link, 'All streaming platforms');
