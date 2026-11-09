@@ -185,13 +185,7 @@ window.CHUCK_GALLERY = [
     "caption": "MyBlock Live Consistency of the Year 2024 award",
     "category": "awards"
   },
-  {
-    "id": 33,
-    "src": "assets/gallery/photo-33.jpeg",
-    "caption": "Blendzville nomination",
-    "category": "awards"
-  },
-  {
+{
     "id": 34,
     "src": "assets/gallery/photo-34.jpeg",
     "caption": "Shine Your Light podcast",
