@@ -1,1 +1,7 @@
-757Soundcheck full article text correction. Upload all files and the assets folder contents to the ROOT of the GitHub repository. Replace files with matching names. Nine article pages now include complete readable text, original artwork, and magazine photos. November is not included. Confirm republication permission with VEER before making full texts public.
+CHUCK BLACK — PRESS, AWARDS & RECOGNITION UPDATE
+
+Upload ALL contents of this folder to the ROOT of the GitHub repository, preserving assets/press/. Allow GitHub to replace existing HTML and sitemap.xml files. Do not upload the containing folder itself.
+
+This patch changes navigation across all existing pages, adds recognition.html, adds the Mickey Factz screenshot, and adds recognition.html to sitemap.xml. It does not remove existing files or modify the EPK page content.
+
+Check original VEER and Facebook source contents before asserting additional specific awards or descriptions.
